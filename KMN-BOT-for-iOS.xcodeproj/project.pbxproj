@@ -3,17 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1231AC091D936D17000B6665 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1231AC081D936D17000B6665 /* SettingsViewController.swift */; };
+		12E90C3E1D93DB02000DA6F3 /* SwiftLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E90C3D1D93DB02000DA6F3 /* SwiftLoading.swift */; };
+		12E90C401D93E16D000DA6F3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E90C3F1D93E16D000DA6F3 /* SearchViewController.swift */; };
+		12F3AC0C1D947DAE00144716 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3AC0B1D947DAE00144716 /* SearchTableViewCell.swift */; };
+		12F3AC0E1D9480AC00144716 /* SearchCellPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3AC0D1D9480AC00144716 /* SearchCellPost.swift */; };
+		12F3AC101D9489D400144716 /* GetLetestJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F3AC0F1D9489D400144716 /* GetLetestJson.swift */; };
+		12F821091D902CBF0084E77A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F821081D902CBF0084E77A /* LoginViewController.swift */; };
 		12F83F1D1D8FDFE3004C6E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F83F1C1D8FDFE3004C6E95 /* AppDelegate.swift */; };
-		12F83F1F1D8FDFE3004C6E95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F83F1E1D8FDFE3004C6E95 /* ViewController.swift */; };
 		12F83F221D8FDFE3004C6E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F83F201D8FDFE3004C6E95 /* Main.storyboard */; };
 		12F83F241D8FDFE3004C6E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F83F231D8FDFE3004C6E95 /* Assets.xcassets */; };
 		12F83F271D8FDFE3004C6E95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F83F251D8FDFE3004C6E95 /* LaunchScreen.storyboard */; };
 		12F83F321D8FDFE3004C6E95 /* KMN_BOT_for_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F83F311D8FDFE3004C6E95 /* KMN_BOT_for_iOSTests.swift */; };
 		12F83F3D1D8FDFE3004C6E95 /* KMN_BOT_for_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F83F3C1D8FDFE3004C6E95 /* KMN_BOT_for_iOSUITests.swift */; };
+		12F83F4B1D8FE514004C6E95 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F83F4A1D8FE514004C6E95 /* OAuthSwift.framework */; };
+		12FE1C3F1D90CE1A00D10D4A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FE1C3E1D90CE1A00D10D4A /* MainTabBarController.swift */; };
+		12FF724A1D93E6BA00AB52E8 /* showSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FF72491D93E6BA00AB52E8 /* showSearchTableViewController.swift */; };
+		1C8E287C6C111F96B47B63B9 /* Pods_KMN_BOT_for_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032A4F2C84C6E5EFEA437707 /* Pods_KMN_BOT_for_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		032A4F2C84C6E5EFEA437707 /* Pods_KMN_BOT_for_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KMN_BOT_for_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1231AC081D936D17000B6665 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		12E90C3D1D93DB02000DA6F3 /* SwiftLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLoading.swift; sourceTree = "<group>"; };
+		12E90C3F1D93E16D000DA6F3 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		12F3AC0B1D947DAE00144716 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		12F3AC0D1D9480AC00144716 /* SearchCellPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCellPost.swift; sourceTree = "<group>"; };
+		12F3AC0F1D9489D400144716 /* GetLetestJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLetestJson.swift; sourceTree = "<group>"; };
+		12F821081D902CBF0084E77A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		12F83F191D8FDFE3004C6E95 /* KMN-BOT-for-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KMN-BOT-for-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F83F1C1D8FDFE3004C6E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		12F83F1E1D8FDFE3004C6E95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		12F83F211D8FDFE3004C6E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12F83F231D8FDFE3004C6E95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12F83F261D8FDFE3004C6E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,11 @@
 		12F83F381D8FDFE3004C6E95 /* KMN-BOT-for-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KMN-BOT-for-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F83F3C1D8FDFE3004C6E95 /* KMN_BOT_for_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMN_BOT_for_iOSUITests.swift; sourceTree = "<group>"; };
 		12F83F3E1D8FDFE3004C6E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12F83F4A1D8FE514004C6E95 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/KMN-BOT-for-iOS-acuyobjjlbtebiedljqfakvizqzg/Build/Products/Debug-iphoneos/OAuthSwift/OAuthSwift.framework"; sourceTree = "<group>"; };
+		12FE1C3E1D90CE1A00D10D4A /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		12FF72491D93E6BA00AB52E8 /* showSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showSearchTableViewController.swift; sourceTree = "<group>"; };
+		9587B1C423C5BE96ACD78BF0 /* Pods-KMN-BOT-for-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMN-BOT-for-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KMN-BOT-for-iOS/Pods-KMN-BOT-for-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		FD5BCE77A441B5593A9A8F6A /* Pods-KMN-BOT-for-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KMN-BOT-for-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KMN-BOT-for-iOS/Pods-KMN-BOT-for-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F83F4B1D8FE514004C6E95 /* OAuthSwift.framework in Frameworks */,
+				1C8E287C6C111F96B47B63B9 /* Pods_KMN_BOT_for_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +98,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		127086871D94751400167497 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				12F3AC0B1D947DAE00144716 /* SearchTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		12E90C3C1D93DAAF000DA6F3 /* AssetsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				12E90C3D1D93DB02000DA6F3 /* SwiftLoading.swift */,
+				12F3AC0F1D9489D400144716 /* GetLetestJson.swift */,
+			);
+			name = AssetsLibrary;
+			sourceTree = "<group>";
+		};
+		12F3AC081D947C2300144716 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				12F3AC0D1D9480AC00144716 /* SearchCellPost.swift */,
+			);
+			name = Post;
+			sourceTree = "<group>";
+		};
+		12F821071D902C890084E77A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				12F821081D902CBF0084E77A /* LoginViewController.swift */,
+				12FE1C3E1D90CE1A00D10D4A /* MainTabBarController.swift */,
+				1231AC081D936D17000B6665 /* SettingsViewController.swift */,
+				12E90C3F1D93E16D000DA6F3 /* SearchViewController.swift */,
+				12FF72491D93E6BA00AB52E8 /* showSearchTableViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		12F83F101D8FDFE3004C6E95 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +142,8 @@
 				12F83F301D8FDFE3004C6E95 /* KMN-BOT-for-iOSTests */,
 				12F83F3B1D8FDFE3004C6E95 /* KMN-BOT-for-iOSUITests */,
 				12F83F1A1D8FDFE3004C6E95 /* Products */,
+				19874A56FCD1021E9899431D /* Pods */,
+				99B18B70936F9CB0CB626E6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +160,11 @@
 		12F83F1B1D8FDFE3004C6E95 /* KMN-BOT-for-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				12F3AC081D947C2300144716 /* Post */,
+				127086871D94751400167497 /* Cells */,
+				12E90C3C1D93DAAF000DA6F3 /* AssetsLibrary */,
+				12F821071D902C890084E77A /* ViewController */,
 				12F83F1C1D8FDFE3004C6E95 /* AppDelegate.swift */,
-				12F83F1E1D8FDFE3004C6E95 /* ViewController.swift */,
 				12F83F201D8FDFE3004C6E95 /* Main.storyboard */,
 				12F83F231D8FDFE3004C6E95 /* Assets.xcassets */,
 				12F83F251D8FDFE3004C6E95 /* LaunchScreen.storyboard */,
@@ -125,6 +191,24 @@
 			path = "KMN-BOT-for-iOSUITests";
 			sourceTree = "<group>";
 		};
+		19874A56FCD1021E9899431D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD5BCE77A441B5593A9A8F6A /* Pods-KMN-BOT-for-iOS.debug.xcconfig */,
+				9587B1C423C5BE96ACD78BF0 /* Pods-KMN-BOT-for-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99B18B70936F9CB0CB626E6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12F83F4A1D8FE514004C6E95 /* OAuthSwift.framework */,
+				032A4F2C84C6E5EFEA437707 /* Pods_KMN_BOT_for_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12F83F411D8FDFE3004C6E95 /* Build configuration list for PBXNativeTarget "KMN-BOT-for-iOS" */;
 			buildPhases = (
+				EFF81B7D1C09A56F83EEA84C /* [CP] Check Pods Manifest.lock */,
 				12F83F151D8FDFE3004C6E95 /* Sources */,
 				12F83F161D8FDFE3004C6E95 /* Frameworks */,
 				12F83F171D8FDFE3004C6E95 /* Resources */,
+				C1226BE3BD962D50378A70AA /* [CP] Embed Pods Frameworks */,
+				65289407733D635158B1848C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,7 +298,7 @@
 				};
 			};
 			buildConfigurationList = 12F83F141D8FDFE3004C6E95 /* Build configuration list for PBXProject "KMN-BOT-for-iOS" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -257,12 +344,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65289407733D635158B1848C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMN-BOT-for-iOS/Pods-KMN-BOT-for-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1226BE3BD962D50378A70AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KMN-BOT-for-iOS/Pods-KMN-BOT-for-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF81B7D1C09A56F83EEA84C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12F83F151D8FDFE3004C6E95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12F83F1F1D8FDFE3004C6E95 /* ViewController.swift in Sources */,
+				12F821091D902CBF0084E77A /* LoginViewController.swift in Sources */,
+				12E90C401D93E16D000DA6F3 /* SearchViewController.swift in Sources */,
+				12FF724A1D93E6BA00AB52E8 /* showSearchTableViewController.swift in Sources */,
+				12F3AC101D9489D400144716 /* GetLetestJson.swift in Sources */,
+				12F3AC0E1D9480AC00144716 /* SearchCellPost.swift in Sources */,
+				12FE1C3F1D90CE1A00D10D4A /* MainTabBarController.swift in Sources */,
+				1231AC091D936D17000B6665 /* SettingsViewController.swift in Sources */,
+				12F3AC0C1D947DAE00144716 /* SearchTableViewCell.swift in Sources */,
+				12E90C3E1D93DB02000DA6F3 /* SwiftLoading.swift in Sources */,
 				12F83F1D1D8FDFE3004C6E95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +479,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -386,6 +530,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -413,27 +558,31 @@
 		};
 		12F83F421D8FDFE3004C6E95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5BCE77A441B5593A9A8F6A /* Pods-KMN-BOT-for-iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CHBKD3LB2S;
 				INFOPLIST_FILE = "KMN-BOT-for-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Knatai.KMN-BOT-for-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		12F83F431D8FDFE3004C6E95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9587B1C423C5BE96ACD78BF0 /* Pods-KMN-BOT-for-iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CHBKD3LB2S;
 				INFOPLIST_FILE = "KMN-BOT-for-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Knatai.KMN-BOT-for-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -514,6 +663,7 @@
 				12F83F431D8FDFE3004C6E95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12F83F441D8FDFE3004C6E95 /* Build configuration list for PBXNativeTarget "KMN-BOT-for-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +672,7 @@
 				12F83F461D8FDFE3004C6E95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12F83F471D8FDFE3004C6E95 /* Build configuration list for PBXNativeTarget "KMN-BOT-for-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +681,7 @@
 				12F83F491D8FDFE3004C6E95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

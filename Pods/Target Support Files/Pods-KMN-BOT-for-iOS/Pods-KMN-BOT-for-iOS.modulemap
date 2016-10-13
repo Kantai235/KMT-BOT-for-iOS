@@ -1,0 +1,6 @@
+framework module Pods_KMN_BOT_for_iOS {
+  umbrella header "Pods-KMN-BOT-for-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
