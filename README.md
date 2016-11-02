@@ -32,7 +32,9 @@ du -sh *
 他可以幫你快速建構 Podfile 檔案，並將基礎語法設定好，然後就可以看表演了。<br />
 <br />
 PS:三補充：pod init 預設會將<br />
+```sh
 #platform :ios, ‘8.0’<br />
+```
 給註解掉，你必須記得 un# 掉<br />
 
 ### OAuthSwift 簡單應用
